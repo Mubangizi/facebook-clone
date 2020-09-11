@@ -1,2 +1,2 @@
 # facebook-clone
-Testing my react by building a facebook clon 
+Testing my react by building a facebook clone
