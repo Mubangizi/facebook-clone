@@ -1,11 +1,16 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Header from "./Header";
 
 function App() {
   return (
-    
     <div className="app">
-      <hi>Lets build the facebook clone</hi>
+      <Header />
+
+      {/* App body */}
+      {/* Side bar */}
+      {/* Feed */}
+      {/* Widgets */}
     </div>
   );
 }
