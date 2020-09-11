@@ -19,11 +19,11 @@ function Header() {
         <img src={FacebookLogo} alt="facebook" />
         <div className="header__input">
           <SearchIcon />
-          <input />
+          <input placeholder="Search Facebook" />
         </div>
       </div>
       <div className="header__center">
-        <div className="header__option">
+        <div className="header__option header__option--active">
           <HomeIcon fontSize="Large" />
         </div>
         <div className="header__option">

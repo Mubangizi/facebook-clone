@@ -23,7 +23,7 @@
 }
 
 .header__left > img {
-  height: 40px;
+  height: 50px;
 }
 
 .header__input > input {
@@ -52,10 +52,29 @@
   padding: 0 30px;
   border-bottom: none;
 }
+.header__option--active {
+  border-bottom: 4px solid #2e81f4;
+}
+
 .header__option > .MuiSvgIcon-root {
   color: gray;
+}
+.header__option--active > .MuiSvgIcon-root {
+  color: #2e81f4;
 }
 
 .header__option:hover > .MuiSvgIcon-root {
   color: #2e81f4;
+}
+.header__info {
+  display: flex;
+  align-items: center;
+}
+
+.header__info > h4 {
+  margin-left: 10px;
+}
+
+.header__right {
+  display: flex;
 }
