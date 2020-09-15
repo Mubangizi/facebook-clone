@@ -2,5 +2,6 @@
     "editor.tabSize": 2,
     "eslint.format.enable": true,
     "eslint.packageManager": "yarn",
-    "eslint.lintTask.enable": true
+    "eslint.lintTask.enable": true,
+    "eslint.debug": true
 }
