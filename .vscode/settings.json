@@ -3,5 +3,6 @@
     "eslint.format.enable": true,
     "eslint.packageManager": "yarn",
     "eslint.lintTask.enable": true,
-    "eslint.debug": true
+    "eslint.debug": true,
+    "eslint.alwaysShowStatus": true
 }
