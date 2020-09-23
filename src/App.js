@@ -7,25 +7,21 @@ import Widgets from "./Widgets";
 import Login from "./Login";
 
 function App() {
-  const user = null
+  const user = null;
   return (
     <div className="app">
-      {
-        !user ? (
-          <Login/>
-        ):(
-          <>
+      {!user ? (
+        <Login />
+      ) : (
+        <>
           <Header />
           <div className="app__body">
-          <SideBar />
-          <Feed />
-          <Widgets/>
+            <SideBar />
+            <Feed />
+            <Widgets />
           </div>
-          </>
-        )
-      }
-     
-
+        </>
+      )}
     </div>
   );
 }
