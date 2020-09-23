@@ -4,9 +4,11 @@ import { Avatar } from '@material-ui/core'
 import VideocamIcon from "@material-ui/icons/Videocam";
 import PhotoLibraryIcon from "@material-ui/icons/PhotoLibrary";
 import InsertEmoticonIcon from "@material-ui/icons/InsertEmoticon";
+import { useStateValue } from './StateProvider';
 
 
 function MessageSender() {
+  const [{ user }, dispatch] = useStateValue();
   const [input, setInput] = useState('')
   const [imageUrl, setImageUrl] = useState('')
   const handleSubmit = (e) => {
@@ -18,7 +20,7 @@ function MessageSender() {
   return (
     <div className='messageSender'>
       <div className="messageSender__top">
-        <Avatar/>
+        <Avatar src={user.photoURL}/>
         <form action="">
           <input 
             value={input}
